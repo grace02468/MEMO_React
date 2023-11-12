@@ -13,23 +13,18 @@ import "./index.css";
 const App = () => {
   return (
     <Router>
-      {/* <div className="app"> */}
       <Nav />
+      <Home />
       <Routes>
-        {/* 加上exact，網址要嚴格等於根目錄/才符合條件，可避免組件同時渲染(現在好像不加也行) */}
         <Route path="/" exact element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/memo" element={<Memo />} />
       </Routes>
-      {/* </div> */}
     </Router>
   );
 };
 
 const Home = () => {
-  // const imgStyle = {
-  //   width: "250px",
-  // };
   const navigate = useNavigate();
   function goToLogin() {
     navigate("/login");
