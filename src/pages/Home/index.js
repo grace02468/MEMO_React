@@ -12,18 +12,14 @@ import "./index.css";
 
 const App = () => {
   return (
-    
     <Router>
-      <Nav />
+      <Home />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/memo" element={<Memo />} />
       </Routes>
-      <Home />
     </Router>
-    
-  
   );
 };
 
@@ -34,6 +30,8 @@ const Home = () => {
   }
 
   return (
+    <>
+    <Nav />
     <div className="homepage">
       <div className="home_content">
         <h1>
@@ -48,7 +46,8 @@ const Home = () => {
         <img className="home_img" src={home_img} alt="logo" />
       </div>
     </div>
+    </>
   );
 };
 
-export default App;
+export default App ;
