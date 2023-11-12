@@ -12,15 +12,18 @@ import "./index.css";
 
 const App = () => {
   return (
+    
     <Router>
       <Nav />
-      <Home />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/memo" element={<Memo />} />
       </Routes>
+      <Home />
     </Router>
+    
+  
   );
 };
 
