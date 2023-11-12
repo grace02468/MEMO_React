@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MEMO_React/static/css/main.0fefbbfb.css",
+    "main.js": "/MEMO_React/static/js/main.8d5c80dd.js",
+    "static/media/home_img.svg": "/MEMO_React/static/media/home_img.abc0708f06567e2bcde435d9147297f4.svg",
+    "static/media/logo.png": "/MEMO_React/static/media/logo.440fc44c7ebaf6e48461.png",
+    "index.html": "/MEMO_React/index.html",
+    "main.0fefbbfb.css.map": "/MEMO_React/static/css/main.0fefbbfb.css.map",
+    "main.8d5c80dd.js.map": "/MEMO_React/static/js/main.8d5c80dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fefbbfb.css",
+    "static/js/main.8d5c80dd.js"
+  ]
+}
