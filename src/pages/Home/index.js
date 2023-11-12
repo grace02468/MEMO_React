@@ -14,11 +14,13 @@ const App = () => {
   return (
     <Router>
       <Home />
+      <h1>test</h1>
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/memo" element={<Memo />} />
       </Routes>
+      <h2>test</h2>
     </Router>
   );
 };
