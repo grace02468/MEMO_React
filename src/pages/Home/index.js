@@ -13,6 +13,7 @@ import "./index.css";
 const App = () => {
   return (
     <Router>
+      <div className="App">
       <Home />
       <h1>test</h1>
       <Routes>
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/memo" element={<Memo />} />
       </Routes>
       <h2>test</h2>
+      </div>
     </Router>
   );
 };
