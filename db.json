@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "data": [
+        {
+          "id": "7a2911a4-441a-47e6-93c2-fa9ae5fb78a8",
+          "note": "test",
+          "date": "2022-06-26",
+          "time": "23:54"
+        },
+        {
+          "id": "f314b94f-8cb6-477d-aced-da415f71d6c5",
+          "note": "something",
+          "date": "2022-06-02",
+          "time": "19:50"
+        }
+      ],
+      "id": "1"
+    }
+  ]
+}

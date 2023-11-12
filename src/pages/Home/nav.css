@@ -1,0 +1,53 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 8vh;
+  background-color: rgb(72, 72, 72);
+  color: white;
+}
+
+.nav-bar li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.register-link {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(72, 72, 72);
+}
+
+.register {
+  margin-right: 15px;
+}
+
+.logo {
+  margin-left: 15px;
+}
