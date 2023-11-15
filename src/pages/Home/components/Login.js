@@ -19,8 +19,6 @@ const Login = () => {
     if (activeItem === "register") {
       createUserWithEmailAndPassword(auth, email, password)
         .then(() => {
-          // navigate("/");
-          // setIsLoading(false);
           console.log("註冊成功");
           navigate("/memo");
         })
@@ -89,14 +87,12 @@ const Login = () => {
       </div>
 
       <form onSubmit={onSubmit}>
-        {/* <label>mail</label>{" "} */}
         <input
           type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="email"
         />
-        {/* <label>password</label>{" "} */}
         <input
           type="password"
           value={password}
