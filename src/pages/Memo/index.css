@@ -9,11 +9,15 @@
 
 .edit {
   background-color: #ffffff;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
   flex: 5;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
   padding: 30px;
+}
+
+.edit h1 {
+  color: rgb(48, 48, 48);
 }
 
 .edit input {
@@ -50,7 +54,8 @@ input {
 
 .list {
   flex: 5;
-  margin-right: 40px;
+  /* margin-left: 35px; */
+  margin-right: 35px;
 }
 
 .list_title {
@@ -108,4 +113,28 @@ input {
 ::placeholder {
   color: rgb(0, 0, 0);
   opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .memo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .list_title {
+    margin-top: 40px;
+  }
+  .item {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .list {
+    position: relative;
+    width: 85%;
+    padding: 30px;
+    margin-left: 35px;
+  }
+  .edit {
+    width: 77%;
+  }
 }
