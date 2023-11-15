@@ -13,7 +13,7 @@ import "./index.css";
 const App = () => {
   return (
     <Router>
-      <Home />
+      <Nav />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -31,23 +31,22 @@ const Home = () => {
 
   return (
     <>
-    <Nav />
-    <div className="homepage">
-      <div className="home_content">
-        <h1>
-          PLAN YOUR DAY,
-          <br />
-          QUICKLY.
-        </h1>
-        <h3>Your own personal memo hub.</h3>
-        <button onClick={goToLogin}>get started</button>
+      <div className="homepage">
+        <div className="home_content">
+          <h1>
+            PLAN YOUR DAY,
+            <br />
+            QUICKLY.
+          </h1>
+          <h3>Your own personal memo hub.</h3>
+          <button onClick={goToLogin}>get started</button>
+        </div>
+        <div className="home_content">
+          <img className="home_img" src={home_img} alt="logo" />
+        </div>
       </div>
-      <div className="home_content">
-        <img className="home_img" src={home_img} alt="logo" />
-      </div>
-    </div>
     </>
   );
 };
 
-export default App ;
+export default App;
