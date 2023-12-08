@@ -5,7 +5,7 @@ const List = ({ listData, deletData }) => {
     <div className="list">
       <h3 className="list_title">Today's task</h3>
       {listData.map((item) => {
-        const { task, note, time, id } = item; //物件解構寫法
+        const { task, note, time, id } = item;
 
         return (
           <Item
@@ -17,7 +17,6 @@ const List = ({ listData, deletData }) => {
             deletData={deletData}
           />
         );
-        // return <Item note={item.note} date={item.date} time={item.time}/>
       })}
     </div>
   );
