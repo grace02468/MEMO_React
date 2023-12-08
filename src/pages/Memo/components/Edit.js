@@ -29,7 +29,7 @@ const Edit = ({ add }) => {
           task,
           note,
           time,
-        }, //解構
+        },
       ].sort(function (a, b) {
         return a.time > b.time ? 1 : -1;
       });
