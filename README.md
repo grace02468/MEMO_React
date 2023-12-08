@@ -11,6 +11,7 @@
 
 ## 運用技術
 * React
+    * React Hooks
     * React Router
 * Firebase
     * Cloud Firestore
